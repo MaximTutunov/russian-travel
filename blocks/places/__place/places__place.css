@@ -1,0 +1,48 @@
+.places__place {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: 152px 460px;
+  gap: 48px 40px;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 320px) {
+  .places__place {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-self: center;
+  }
+}
+@media (min-width: 768px) {
+  .places__place {
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-rows: 92px auto;
+    gap: 48px 28px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places__place {
+    grid-template-columns: 440px 456px;
+    grid-template-rows: 152px 440px;
+    gap: 48px 32px;
+  }
+}
+@media (min-width: 1280px) {
+  .places__place {
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: 152px 460px;
+    gap: 48px 40px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+}

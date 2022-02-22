@@ -1,0 +1,63 @@
+.places__paragraph {
+  width: 484px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  padding: 0;
+  margin-bottom: 28px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+@media (min-width: 320px) {
+  .places__paragraph {
+    width: 288px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0px auto;
+    margin-bottom: 25px;
+  }
+  .places__paragraph:nth-child(2n) {
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .places__paragraph {
+    width: 352px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 163%;
+    margin-bottom: 28px;
+  }
+}
+@media (min-width: 1024px) {
+  .places__paragraph {
+    width: 456px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    margin-bottom: 28px;
+  }
+}
+@media (min-width: 1280px) {
+  .places__paragraph {
+    margin: 0;
+    padding: 0;
+    width: 484px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 163%;
+    margin-bottom: 28px;
+  }
+}

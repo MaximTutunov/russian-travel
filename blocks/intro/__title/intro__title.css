@@ -1,0 +1,39 @@
+.intro__title {
+  margin-top: 114px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #ffffff;
+  margin-left: 148px;
+}
+
+@media (min-width: 320px) {
+  .intro__title {
+    margin-top: 64px;
+    font-size: 32px;
+    line-height: 35px;
+    margin-left: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .intro__title {
+    margin-top: 88px;
+    font-size: 54px;
+    line-height: 58px;
+    margin-left: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .intro__title {
+    margin-top: 114px;
+    margin-left: 48px;
+  }
+}
+@media (min-width: 1280px) {
+  .intro__title {
+    margin-top: 114px;
+    margin-left: 148px;
+  }
+}

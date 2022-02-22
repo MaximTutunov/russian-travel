@@ -1,0 +1,12 @@
+.places {
+  margin-top: 12px;
+}
+
+@media (min-width: 320px) {
+  .places {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+}
