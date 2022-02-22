@@ -1,26 +1,17 @@
 .places__title {
   color: #ffffff;
-  grid-column: 1;
-  grid-row: 1;
   display: flex;
   align-items: flex-end;
   font-family: Inter;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 76px;
   color: #ffffff;
 }
 
 @media (min-width: 320px) {
   .places__title {
-    display: flex;
-    align-items: flex-end;
     margin-left: 16px;
     align-self: flex-start;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     margin-bottom: 0;
@@ -35,16 +26,10 @@
     padding: 0;
     grid-column: 1;
     grid-row: 1;
-    display: flex;
-    align-items: flex-end;
     width: 340px;
     height: 92px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
     font-size: 42px;
     line-height: 46px;
-    color: #ffffff;
   }
 }
 
@@ -52,37 +37,16 @@
   .places__title {
     margin: 0;
     padding: 0;
-    grid-column: 1;
-    grid-row: 1;
-    display: flex;
-    align-items: flex-end;
     width: 440px;
     height: 152px;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-
-    color: #ffffff;
   }
 }
 @media (min-width: 1280px) {
   .places__title {
     margin: 0;
     padding: 0;
-    grid-column: 1;
-    grid-row: 1;
-    display: flex;
-    align-items: flex-end;
     width: 460px;
-    height: 152px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    color: #ffffff;
   }
 }

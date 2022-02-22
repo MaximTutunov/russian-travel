@@ -1,11 +1,7 @@
 .footer__copyright {
-  width: 186px;
-  height: 16px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
   text-align: right;
   color: #ffffff;
 }
@@ -24,12 +20,7 @@
   .footer__copyright {
     width: 186px;
     height: 16px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 16px;
     text-align: right;
-    color: #ffffff;
   }
 }

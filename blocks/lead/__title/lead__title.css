@@ -1,5 +1,4 @@
 .lead__title {
-  width: 720px;
   margin: 0 auto;
   margin-top: 56px;
   font-family: Inter;
@@ -21,10 +20,8 @@
 @media (min-width: 768px) {
   .lead__title {
     margin-top: 48px;
-  }
-}
-@media (min-width: 1024px) {
-  .lead__title {
-    margin-top: 48px;
+    font-size: 96px;
+    line-height: 100px;
+    width: 720px;
   }
 }

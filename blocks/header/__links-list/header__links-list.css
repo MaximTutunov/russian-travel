@@ -14,7 +14,12 @@
 
 @media (min-width: 768px) {
   .header__links-list {
-    margin-top: 24px;
-    margin-right: 46px;
+    margin-top: 46px;
+    margin-right: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .header__links-list {
+    margin-right: 48px;
   }
 }

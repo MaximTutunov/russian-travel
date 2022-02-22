@@ -8,7 +8,6 @@
   box-sizing: border-box;
   margin-right: 18px;
 }
-
 .header__lang-link:hover {
   opacity: 80%;
 }

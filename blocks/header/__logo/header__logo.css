@@ -1,6 +1,5 @@
 .header__logo {
   margin-top: 28px;
-  margin-left: 48px;
   width: 176px;
   height: 52px;
 }
@@ -15,5 +14,10 @@
 @media (min-width: 768px) {
   .header__logo {
     margin-left: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .header__logo {
+    margin-left: 48px;
   }
 }
