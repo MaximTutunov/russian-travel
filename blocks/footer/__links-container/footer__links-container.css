@@ -9,9 +9,8 @@
     display: flex;
     min-width: 320px;
     flex-direction: column;
-
+    align-content: flex-start;
     align-self: center;
-    margin-top: 64px;
   }
 }
 @media (min-width: 768px) {

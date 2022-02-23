@@ -1,6 +1,7 @@
 .footer {
   margin: auto;
   margin-top: 92px;
+  margin-bottom: 24px;
   display: flex;
 }
 
@@ -10,8 +11,7 @@
     margin-top: 64px;
     flex-direction: column;
     align-self: center;
-    padding-left: 16px;
-  }
+    }
 }
 @media (min-width: 768px) {
   .footer {

@@ -1,24 +1,21 @@
 .places__paragraph {
-  font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   padding: 0;
-  margin-bottom: 28px;
+  margin-bottom: 0px;
   margin-top: 0px;
   color: #ffffff;
 }
 .places__paragraph:nth-child(2n) {
-  margin-bottom: 0px;
+  margin-top: 28px;
 }
 @media (min-width: 320px) {
   .places__paragraph {
     width: 288px;
     font-size: 16px;
     line-height: 163%;
-    margin: 0px auto;
-    margin-bottom: 25px;
-  }
-  }
+   /* margin: 0px auto;*/
+      }
+    }
 @media (min-width: 768px) {
   .places__paragraph {
     width: 352px;

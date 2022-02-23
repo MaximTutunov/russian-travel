@@ -1,15 +1,14 @@
 .places__url-heading {
-  font-family: Inter;
-  font-style: normal;
   font-weight: normal;
   line-height: 12px;
+  font-size: 12px;
   letter-spacing: 2px;
   color: #aaaaaa;
 }
 @media (min-width: 320px) {
   .places__text {
     line-height: 12px;
-  }
+      }
 }
 @media (min-width: 1024px) {
   .places__text {
