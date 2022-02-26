@@ -6,6 +6,7 @@
   align-items: center;
   margin: auto;
   position: relative;
+  text-decoration: none;
 }
 
 .cover::before {
