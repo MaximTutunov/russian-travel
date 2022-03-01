@@ -1,5 +1,6 @@
 .places__paragraph {
   font-weight: normal;
+  line-height: 163%;
   padding: 0;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -12,15 +13,12 @@
   .places__paragraph {
     width: 288px;
     font-size: 16px;
-    line-height: 163%;
-   /* margin: 0px auto;*/
       }
-    }
+}
 @media (min-width: 768px) {
   .places__paragraph {
     width: 352px;
     font-size: 16px;
-    line-height: 163%;
     margin-bottom: 28px;
   }
 }
@@ -28,7 +26,6 @@
   .places__paragraph {
     width: 456px;
     font-size: 18px;
-    line-height: 163%;
     margin-bottom: 28px;
   }
 }
@@ -38,7 +35,6 @@
     padding: 0;
     width: 484px;
     font-size: 18px;
-    line-height: 163%;
     margin-bottom: 28px;
   }
 }

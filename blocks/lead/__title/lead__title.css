@@ -1,8 +1,9 @@
 .lead__title {
   margin: 0 auto;
   font-weight: 900;
+  font-style: normal;
+  font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
   text-align: center;
   color: #ffffff;
 }
@@ -16,10 +17,9 @@
 }
 @media (min-width: 768px) {
   .lead__title {
-    margin-top: 48px;
     font-size: 96px;
-    line-height: 100px;
     width: 720px;
+    line-height: 100px;
   }
 }
 @media (min-width: 1280px) {

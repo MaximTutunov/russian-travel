@@ -2,6 +2,8 @@
   font-weight: normal;
   text-align: right;
   color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
 
 @media (min-width: 320px) {
@@ -19,7 +21,6 @@
   .footer__copyright {
     padding: 0;
     width: 186px;
-    height: 16px;
     line-height: 16px;
     text-align: right;
   }
