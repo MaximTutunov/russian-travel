@@ -1,6 +1,7 @@
 .photo-grid {
   display: grid;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
 @media (min-width: 320px) {
@@ -34,6 +35,5 @@
     grid-template-columns: repeat(4, 284px);
     grid-template-rows: repeat(auto, 213px);
     gap: 16px;
-    margin-top: 92px;
   }
 }

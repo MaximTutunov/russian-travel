@@ -1,8 +1,7 @@
 .places__website {
   grid-column: 2;
   grid-row: 1;
-  margin-left: 0px;
-    }
+}
 
 @media (min-width: 320px) {
   .places__website {
@@ -15,9 +14,7 @@
 }
 @media (min-width: 768px) {
   .places__website {
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin: 0;
     align-self: end;
   }
 }
-

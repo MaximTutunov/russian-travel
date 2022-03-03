@@ -1,8 +1,6 @@
 .header__links-list {
   display: flex;
   box-sizing: border-box;
-  margin-top: 46px;
-  margin-right: 48px;
 }
 
 @media (min-width: 320px) {

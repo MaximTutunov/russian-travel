@@ -1,9 +1,5 @@
 .places__title {
-  color: #ffffff;
-  display: flex;
-  align-items: flex-end;
   font-weight: 900;
-  color: #ffffff;
 }
 
 @media (min-width: 320px) {
@@ -25,7 +21,7 @@
     padding: 0;
     grid-column: 1;
     grid-row: 1;
-    width: 250px;
+    width: 340px;
     align-self: flex-end;
     font-size: 42px;
     line-height: 46px;
@@ -34,8 +30,6 @@
 
 @media (min-width: 1024px) {
   .places__title {
-    margin: 0;
-    padding: 0;
     width: 440px;
     font-size: 72px;
     line-height: 76px;
@@ -43,8 +37,6 @@
 }
 @media (min-width: 1280px) {
   .places__title {
-    margin: 0;
-    padding: 0;
     width: 460px;
   }
 }

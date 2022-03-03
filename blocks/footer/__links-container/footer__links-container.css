@@ -15,8 +15,6 @@
 }
 @media (min-width: 768px) {
   .footer__links-container {
-    padding: 0;
-    margin: 0;
     display: inline-block;
     text-align: center;
     align-self: flex-end;

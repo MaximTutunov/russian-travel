@@ -1,9 +1,10 @@
 .places__url-heading {
   font-weight: normal;
-  line-height: 12px;
   font-size: 12px;
   letter-spacing: 2px;
   color: #aaaaaa;
+  margin-top:0;
+  margin-bottom: 12px;
 }
 @media (min-width: 320px) {
   .places__text {

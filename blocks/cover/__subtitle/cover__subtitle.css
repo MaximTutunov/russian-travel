@@ -1,5 +1,4 @@
 .cover__subtitle {
-  width: 360px;
   margin: auto;
   font-weight: normal;
   text-align: center;
@@ -26,13 +25,11 @@
 }
 @media (min-width: 1024px) {
   .cover__subtitle {
-    width: 360px;
     margin-top: 32px;
   }
 }
 @media (min-width: 1280px) {
   .cover__subtitle {
-    width: 360px;
     margin-top: 16px;
   }
 }
