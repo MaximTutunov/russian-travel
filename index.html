@@ -15,15 +15,17 @@
           alt="Логотип карты России"
           class="header__logo"
         />
-        <div class="header__links-list">
-          <a
-            href="#"
-            target="_blank"
-            class="header__lang-link header__lang-link_active"
-            >Ru</a
-          >
-          <a href="#" target="_blank" class="header__lang-link">En</a>
-        </div>
+        <ul class="header__links-list">
+          <li>
+            <a
+              href="#"
+              target="_blank"
+              class="header__lang-link header__lang-link_active"
+              >Ru</a
+            >
+          </li>
+          <li><a href="#" target="_blank" class="header__lang-link">En</a></li>
+        </ul>
       </header>
       <main>
         <section class="lead">
@@ -132,7 +134,7 @@
         </section>
 
         <section class="places">
-          <div class="places__place">
+          <article class="places__place">
             <h2 class="places__title">Куршская коса</h2>
             <img
               src="images/place-kosa.jpg"
@@ -161,8 +163,8 @@
                 прохладного моря.
               </p>
             </div>
-          </div>
-          <div class="places__place">
+          </article>
+          <article class="places__place">
             <h2 class="places__title">Кольский</h2>
             <img
               src="images/place-kolsky.jpg"
@@ -193,8 +195,8 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </div>
-          <div class="places__place">
+          </article>
+          <article class="places__place">
             <h2 class="places__title">Алтай</h2>
             <img
               src="images/place-altai.jpg"
@@ -225,8 +227,8 @@
                 края.
               </p>
             </div>
-          </div>
-          <div class="places__place">
+          </article>
+          <article class="places__place">
             <h2 class="places__title">Зимний Байкал</h2>
             <img
               src="images/place-winter-baikal.jpg"
@@ -254,8 +256,8 @@
                 197.011 км/ч.
               </p>
             </div>
-          </div>
-          <div class="places__place">
+          </article>
+          <article class="places__place">
             <h2 class="places__title">Карелия</h2>
             <img
               src="images/place-karelia.jpg"
@@ -281,15 +283,17 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </div>
+          </article>
         </section>
-        <a href="#" target="_blank" class="cover">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <h3 class="cover__subtitle">
-            По мотивам учебной темы о Транссибе — путешествие от столицы до
-            Байкала на электричках.
-          </h3>
-        </a>
+        <section class="cover">
+          <a href="#" target="_blank" class="cover__overlay">
+            <h2 class="cover__title">До Байкала «на собаках»</h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </a>
+        </section>
       </main>
       <footer class="footer">
         <nav class="footer__links-container">

@@ -1,0 +1,7 @@
+.cover__overlay {
+  text-decoration: none;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  width: 100%;
+}

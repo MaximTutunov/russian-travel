@@ -6,17 +6,16 @@
   align-items: center;
   margin: auto;
   position: relative;
-  text-decoration: none;
 }
 
 .cover::before {
   opacity: 30%;
   background-color: rgba(42, 44, 47, 1);
   position: absolute;
-  top:0;
-  left:0;
-  bottom:0;
-  right:0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
   content: "";
 }
 
