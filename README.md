@@ -21,4 +21,4 @@ Git - для контроля версий.
 запустите Live Server с помощью расширения VSCode.
 
 Ссылка на проект:
-polite-fact.surge.sh
+ https://polite-fact.surge.sh/
